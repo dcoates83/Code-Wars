@@ -7,25 +7,118 @@ $md-width: 768px;
 $lg-width: 1200px;
 $xl-width: 1400px;
 
-.flex-center {
+// Postion
+.absolute {
+ position: absolute;
+}
+
+.relative {
+ position: relative;
+}
+
+.fixed {
+ position: fixed;
+}
+
+.top {
+ top: 0;
+}
+
+.bottom {
+ bottom: 0;
+}
+
+.right {
+ right: 0;
+
+}
+
+.left {
+ left: 0;
+}
+
+// Flex
+.flex {
+ display: flex !important;
+}
+
+.justify-center {
  display: flex;
  justify-content: center;
 }
 
-.flex-space-evenly {
+.justify-items-center {
+ display: flex;
+ justify-items: center;
+}
+
+.justify-items-end {
+ display: flex;
+ justify-items: end;
+}
+
+.justify-items-start {
+ display: flex;
+ justify-items: start;
+}
+
+.justify-space-evenly {
  display: flex;
  justify-content: space-evenly;
 }
 
-.flex-space-between {
+.justify-space-between {
  display: flex;
  justify-content: space-between;
 }
 
-.flex-space-around {
+.justify-space-around {
  display: flex;
  justify-content: space-around;
 }
+
+.justify-content-end {
+ display: flex;
+ justify-content: end;
+}
+
+.justify-content-start {
+ display: flex;
+ justify-content: start;
+}
+
+.align-items-center {
+ display: flex;
+ align-items: center;
+}
+
+.align-content-center {
+ display: flex;
+ align-content: center;
+}
+
+.align-items-space-between {
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+}
+
+.align-items-space-around {
+ display: flex;
+ flex-direction: column;
+ justify-content: space-around;
+}
+
+.align-items-flex-end {
+ display: flex;
+ align-items: flex-end;
+}
+
+.align-items-flex-start {
+ display: flex;
+ align-items: flex-start;
+}
+
 
 .row {
  display: grid;
@@ -43,15 +136,15 @@ $xl-width: 1400px;
  // grid-column-gap: .5em;
 }
 
-@for $i from 1 through 10 {
+@for $i from 1 through 100 {
  .height-#{$i} {
-  height: $i * 10vh;
+  height: $i * 10px;
  }
 }
 
-@for $i from 1 through 10 {
+@for $i from 1 through 100 {
  .height-#{$i}-5 {
-  height: ($i + .5)* 10vh;
+  height: ($i + .5)* 10px;
  }
 }
 

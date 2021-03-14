@@ -125,3 +125,51 @@
 monitor-items-container {
  height: 80%;
 }
+
+//alternating background
+.light-bg {
+ background-color: #f4f4f5;
+}
+
+.white-section {
+ height: 320px;
+}
+
+.grey-section {
+ height: 320px;
+ background-color: #f4f4f5;
+ overflow: hidden;
+
+}
+
+.grey-section-xl {
+ height: 775px;
+ background-color: #f4f4f5;
+}
+
+// text box widths
+.text-width {
+ width: 320px;
+}
+
+// adjusts images on white background sections
+.left-hotfix {
+ justify-self: end;
+ padding-right: 2.5em;
+}
+
+// comment boxs
+.commentbox {
+ min-height: 170px;
+ width: 400px;
+ // margin: 0 auto;
+ background-color: #fff;
+}
+
+.comment-grid {
+ display: grid;
+ grid-row-gap: 25%;
+ grid-column-gap: 10%;
+ // justify-content: center;
+ align-items: center;
+}
