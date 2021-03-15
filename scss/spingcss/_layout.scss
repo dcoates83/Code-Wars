@@ -81,6 +81,21 @@ $xl-width: 1400px;
  justify-items: start;
 }
 
+.justify-self-center {
+ display: flex;
+ justify-self: center;
+}
+
+.justify-self-end {
+ display: flex;
+ justify-self: end;
+}
+
+.justify-self-start {
+ display: flex;
+ justify-self: start;
+}
+
 .justify-space-evenly {
  display: flex;
  justify-content: space-evenly;
