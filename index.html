@@ -10,6 +10,8 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&family=Lato:wght@100;300;400;700&display=swap"
     rel="stylesheet">
+  <link rel="stylesheet"
+    href="https://www.codewars.com/packs/media/fonts/icomoon-5a7cb2519911cfa8e7ad4041c9d4839f.woff">
   <title>Code Wars</title>
 </head>
 
@@ -18,8 +20,8 @@
     <div class="nav-container pt-2 pb-2 bg-white ">
       <nav>
         <ul class="nav-items">
-          <img src="/css/assets/logo-by-q-b02277e06ebda16eeaf3890c1c6b2e7fd35e8d8fd3ecdcc11061932cbbab9957.png" alt=""
-            srcset="" class="logo">
+          <img src="css/assets/logo-by-q-b02277e06ebda16eeaf3890c1c6b2e7fd35e8d8fd3ecdcc11061932cbbab9957-min.png"
+            alt="" srcset="" class="logo">
 
         </ul>
       </nav>
@@ -37,8 +39,8 @@
     <section class="mastery">
       <div class="painting-container">
         <div class="container  ">
-          <div class="row align-items-center ">
-            <div class="col-4  ">
+          <div class="row align-items-center  ">
+            <div class="col-4 hide-md ">
               <div class="container ">
                 <div class="row justify-items-end">
                   <div class="col-12 ">
@@ -52,7 +54,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-8 ">
+            <div class="col-8 col-sm-8 col-md-8 hide-sm">
               <div class="monitor">
                 <div class="text-container">
                   <h3 class="pt-1 text-18 text-center text-grey">To join you must first prove your skills. </h3>
@@ -101,24 +103,66 @@
         </div>
         <div class="painting-bg absolute inset-0 w-full hidden sm:block overflow-hidden"><img
             class="absolute inset-y-0 inset-x-0 w-full h-full"
-            src="/css/assets/paper-d6993882a620fef5ee22452c1e69f6575293b61b27201a73d6d44452f3171d64.jpg"><img
+            src="/css/assets/paper-d6993882a620fef5ee22452c1e69f6575293b61b27201a73d6d44452f3171d64-min.jpg"><img
             class="absolute inset-y-0 left-0 opacity-10 md:opacity-100"
-            src="/css/assets/painting-bg-left-067c8fc307115ac4d748bb762318ca571caed84ca951ce7bfff4b7639878e940.png"><img
+            src="/css/assets/painting-bg-left-067c8fc307115ac4d748bb762318ca571caed84ca951ce7bfff4b7639878e940-min.png"><img
             class="absolute inset-y-0 right-0 -mr-40 lg:mr-0 opacity-10 md:opacity-100 object-left-bottom"
-            src="/css/assets/painting-bg-right-0bf600e1691f4f76b6c6c276514d5ed5360b983c2423d2bab38f6d7c1a263fbe.png">
+            src="/css/assets/painting-bg-right-0bf600e1691f4f76b6c6c276514d5ed5360b983c2423d2bab38f6d7c1a263fbe-min.png">
         </div>
       </div>
 
     </section>
-    <section class="">
+    <section class="flex-small">
       <div class="container relative">
         <div class="row add-lang light-bg height-19">
-          <div class="col-4 align-items-center justify-content-end mr-4 pr-1 ">
+          <div class="col-4 col-xxl-6 align-items-center justify-center mr-4 pr-1 ">
             <h5 class="text-18">Additional Languages</h5>
           </div>
 
-          <div class="col-8 align-items-center justify-content-start">
-            <img src="/css/assets/coming-soon.png" alt="" srcset="">
+          <div class="col-8 col-xxl-6 align-items-center justify-content-start">
+            <!-- <img src="/css/assets/coming-soon-min.png" alt="" srcset=""> -->
+            <ul class="flex icons">
+
+              <div class="row">
+                <li Agda">
+
+                  <img src="/css/assets/svg/Agda.svg" class="icon-moon " alt="" srcset="">
+                </li>
+                <li BF"><img src="css/assets/svg/Brainfuck.svg" class="icon-moon "></img></li>
+                <li CFML">
+                  <img src="css/assets/svg/ColdFusion.svg" class="icon-moon "></img></li>
+                <li COBOL"><img src="css/assets/svg/COBOL.svg" class="icon-moon"></img></li>
+                <li CommonLisp"><img src="css/assets/svg/Common-Lisp.svg" class="icon-moon "></img></li>
+                <li Elm">
+                  <img src="css/assets/svg/Elm.svg" class="icon-moon "></img></li>
+
+                <li Haxe">
+                  <img src="css/assets/svg/Haxe.svg" class="icon-moon "></img></li>
+                <li Idris"><img src="css/assets/svg/Idris.svg" class="icon-moon"></img></li>
+                <li Factor"><img src="css/assets/svg/Factor.svg" class="icon-moon "></img></li>
+              </div>
+              <div class="row">
+                <li Fortran"><img src="css/assets/svg/Fortran.svg" class="icon-moon"></img></li>
+                <li Julia"><img src="css/assets/svg/Julia.svg" class="icon-moon "></img></li>
+                <li Nim">
+                  <img src="css/assets/svg/Nimble.svg" class="icon-moon"></img></li>
+                <li Objective-C"><img src="css/assets/svg/C++.svg" class="icon-moon"></img></li>
+                <li OCaml"><img src="css/assets/svg/OCaml.svg" class="icon-moon"></img></li>
+                <li Pascal"><img src="css/assets/svg/Pascal.svg" class="icon-moon "></img></li>
+                <li Perl">
+                  <img src="css/assets/svg/Perl6.svg" class="icon-moon"></img></li>
+                <li PowerShell"><img src="css/assets/svg/PowerShell.svg" class="icon-moon "></img></li>
+              </div>
+              <div class="row">
+                <li PureScript"><img src="css/assets/svg/PureScript.svg" class="icon-moon"></img></li>
+                <li R"><img src="css/assets/svg/R.svg" class="icon-moon "></img></li>
+
+
+                <li Reason"><img src="css/assets/svg/Reason.svg" class="icon-moon "></img></li>
+                <li Solidity"><img src="css/assets/svg/Solidity.svg" class="icon-moon"></img></li>
+                <li VB"><img src="css/assets/svg/VirtualBox.svg" class="icon-moon "></img></li>
+              </div>
+            </ul>
           </div>
         </div>
         <div class="row light-bg absolute bottom  pb-1">
@@ -135,10 +179,8 @@
       <div class="container white-section">
         <div class="row">
           <div class="col-6 align-items-flex-start justify-content-end mr-4 pr-1 pt-2">
-            <img
-              src="https://www.codewars.com/assets/landing/copy-skills-89e8a4d5fb8a5fbcaa92cda5c825f30283f016bf2c591d1635f4aaafab75d883.png"
-              alt="" srcset=""></div>
-          <div class="col-6 align-items-flex-start text-36 text-width">
+            <img src="css/assets/copy-skills-min.png" alt="" srcset=""></div>
+          <div class="col-6 justify-content-start text-36 text-width">
             <div class="container mt-1 ">
               <h3>
                 Sharpen your skills
@@ -167,9 +209,7 @@
             </div>
           </div>
           <div class="col-6 align-items-flex-start justify-content-start pt-2">
-            <img
-              src="https://www.codewars.com/assets/landing/copy-train-dae50109908cc487ad31fb0292b3ff7b4864a2ac5e2eb9141668035b33151531.png"
-              alt="" srcset=""></div>
+            <img src="css/assets/copy-train-min.png" alt="" srcset=""></div>
 
         </div>
       </div>
@@ -178,9 +218,7 @@
       <div class="container white-section">
         <div class="row">
           <div class="col-6 align-items-flex-start justify-content-end mr-4 pr-1 pt-1">
-            <img
-              src="https://www.codewars.com/assets/landing/copy-rank-a488586819ed6c3c20d40f25ec5ced58f67af8691f844165a4225d7df03bed94.png"
-              alt="" srcset=""></div>
+            <img src="css/assets/copy-rank-min.png" alt="" srcset=""></div>
           <div class="col-6 align-items-flex-start text-36 text-width">
             <div class="container mt-1 ">
               <h3>
@@ -210,9 +248,7 @@
             </div>
           </div>
           <div class="col-6 align-items-flex-start justify-content-start pt-2">
-            <img
-              src="https://www.codewars.com/assets/landing/copy-wisdom-acd714a0ef0bd0d7b1b8ba1b4fd152702277ce69062153e566a6ae0a510235d5.png"
-              alt="" srcset=""></div>
+            <img src="/css/assets/copy-wisdom-min.png" alt="" srcset=""></div>
 
         </div>
       </div>
@@ -221,9 +257,7 @@
       <div class="container white-section">
         <div class="row">
           <div class="col-6 align-items-flex-start justify-content-end mr-4 pr-1 pt-2">
-            <img
-              src="https://www.codewars.com/assets/landing/copy-create-e424345b8ac9f203febc073ca9b16f6e141ae83d0b1e4295b767b29210ebba80.png"
-              alt="" srcset=""></div>
+            <img src="css/assets/copy-create-min.png" alt="" srcset=""></div>
           <div class="col-6 align-items-flex-start text-36 text-width">
             <div class="container mt-1 ">
               <h3>
@@ -240,30 +274,143 @@
     </section>
 
     <section>
-      <div class=" container comment-grid grey-section-xl">
+      <div class="align-items-center container grey-section-xl ">
 
-        <h3 class=" flex justify-center col-12 text-36 pt-1 pb-1">Community love</h3>
-        <div class="col-12">
+        <h3 class="flex row justify-center text-36">Community love</h3>
+        <div class="row">
+          <div class="place-item-3-7 mr-2">
+            <div class="commentbox container text-19">
+              <p class="span-item-12 p-1 ">"I swear, @codewars is better than college"</p>
 
-          <div class=" col-6  align-items-center justify-center">
-            <div class="commentbox col-3"></div>
-            <div class="commentbox col-3"></div>
+              <div class="row container relative align-items-center">
+                <div class="row align-items-center">
+                  <div class="pic absolute p-1"><img src="css/assets/Martin-min.png" alt="" class="prof-pic"></div>
+                  <div class="row place-item-4-12">
+                    <p class="">Martin</p>
+
+                  </div>
+                  <div class="row place-item-4-8 align-items-flex-start">
+                    <p class="text-danger block text-19  pb-1">@cyberseer</p>
+                  </div>
+
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="col-6 justify-center">
-            <div class="commentbox col-3"></div>
-            <div class="commentbox col-3"></div>
+          <div class="place-item-7-11 ml-2">
+            <div class="commentbox container text-19">
+              <p class="span-item-12 p-1 ">"Perfect Execution Codewars"</p>
+
+              <div class="row container relative align-items-center">
+                <div class="row align-items-center">
+                  <div class="pic absolute p-1"><img src="" alt="@Kevin" class="prof-pic text-14">
+                  </div>
+                  <div class="row place-item-4-8">
+                    <p class="">Kevin</p>
+
+                  </div>
+                  <div class="row place-item-4-8 align-items-flex-start">
+                    <p class="text-danger block text-19  pb-1">@Kevin_Granger</p>
+                  </div>
+
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="col-12 flex justify-center col-12 text-36 pt-1 pb-1 align-items-flex-end">
-            <button class="btn btn-danger mt-2 font-weight-300 text-20 pl-1 pr-1">JOIN US</button>
+        </div>
+        <div class="row">
+          <div class="place-item-3-7 mr-2">
+            <div class="commentbox container text-19">
+              <p class="span-item-12 p-1 ">"I forgot to eat dinner, because I was on @codewars. This is addictive"</p>
+
+              <div class="row container relative align-items-center">
+                <div class="row align-items-center">
+                  <div class="pic absolute p-1"><img src="css/assets/Raf-min.jpg" alt="" class="prof-pic"></div>
+                  <div class="row place-item-4-8">
+                    <p class="">Raf</p>
+
+                  </div>
+                  <div class="row place-item-4-8 align-items-flex-start">
+                    <p class="text-danger block text-19  pb-1">@szalansky</p>
+                  </div>
+
+                </div>
+              </div>
+            </div>
           </div>
+          <div class="place-item-7-11 ml-2">
+            <div class="commentbox container text-19">
+
+              <p class="span-item-12 p-1 ">"@codewars. Extremely well done and an excellent example of mastery learning"
+              </p>
+
+              <div class="row container relative align-items-center">
+                <div class="row align-items-center">
+                  <div class="pic absolute p-1"><img src="css/assets/Ahmed-min.jpg" alt="" class="prof-pic"></div>
+                  <div class="row place-item-4-8">
+                    <p class="">Ahmed</p>
+
+                  </div>
+                  <div class="row place-item-4-8 align-items-flex-start pb-1">
+                    <p class="text-danger block text-19">@this_ahmed</p>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+
         </div>
 
 
+
+
+
+        <div class="col-12 flex justify-center col-12 text-36 pt-1 pb-1 align-items-flex-end">
+          <button class="btn btn-danger mt-2 font-weight-300 text-18 pl-1 pr-1">JOIN US</button>
+        </div>
+      </div>
     </section>
 
 
   </main>
+  <footer>
+    <div class="container align-items-center white-section">
+      <h3 class="flex row justify-center text-24">Brought to you by</h3>
+      <div class="row">
+        <div class="col-6   align-items-center justify-content-end mr-4 pr-1 pt-1">
+          <img class="qualified" src="css/assets/qualified-logo-gray.svg" alt="" srcset=""></div>
+        <div class="col-6 align-items-center text-36 text-width">
 
+
+          <p class="pt-1 text-16">
+            Accelerate your technical hiring.
+            Instant setup. Intuitive testing. Real results.
+          </p>
+
+        </div>
+      </div>
+      <div class="col-12 flex justify-center col-12 text-36 ">
+        <button class="btn btn-danger font-weight-300 text-18 pl-1 pr-1">Learn More</button>
+      </div>
+
+      <div class="row justify-center">
+        <div class="center-me flex col-12 pt-4 ">
+          <nav>
+            <ul class="nav-items text-14">
+              <li>© 2021 Codewars</li>
+              <li class="text-danger">About</li>
+              <li class="text-danger">API</li>
+              <li class="text-danger">Blog</li>
+              <li class="text-danger">Privacy</li>
+              <li class="text-danger">Terms</li>
+              <li class="text-danger">Contact</li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </footer>
 </body>
 
 </html>

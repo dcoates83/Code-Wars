@@ -160,16 +160,162 @@ monitor-items-container {
 
 // comment boxs
 .commentbox {
- min-height: 170px;
- width: 400px;
- // margin: 0 auto;
+ min-height: 182px;
+ // width: 185px;
+ margin: 0 auto;
  background-color: #fff;
+ position: relative;
+ border-bottom: 5px solid #e0e0e0;
 }
 
-.comment-grid {
- display: grid;
- grid-row-gap: 25%;
- grid-column-gap: 10%;
- // justify-content: center;
- align-items: center;
+.commentbox::before {
+ content: "";
+ // position: absolute;
+ height: 30px;
+ background-color: white;
+ width: 30px;
+ display: inline-block;
+ bottom: -21px;
+ position: absolute;
+ left: 45px;
+ rotate: 45deg;
+ border-bottom: 5px solid #e0e0e0;
+ border-right: 5px solid #e0e0e0;
+ ;
+
 }
+
+.prof-pic {
+ border-radius: 50%;
+ height: 48px;
+ width: 48px;
+ display: inline-block;
+ // object-fit: contain;
+}
+
+// footer
+.qualified {
+ display: inline-block;
+ height: 64px;
+}
+
+
+
+@media (max-width:850px) {
+ .hide-md {
+  display: none;
+ }
+
+ .monitor {
+  min-width: 80%;
+  max-width: 100%;
+  margin: 0 auto;
+
+ }
+
+ .center-me {
+  justify-content: center !important;
+ }
+}
+
+@media (max-width:620px) {
+ .flex-small {
+  display: flex !important;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  // grid-auto-flow: row;
+  // grid-auto-rows: max-content;
+ }
+}
+
+// 
+
+
+
+* icon-moon-:before {
+ font-family: ico-moon;
+ font-style: normal;
+ // speak: none;
+ font-weight: 400;
+ line-height: 1;
+ -webkit-font-smoothing: antialiased;
+ -moz-osx-font-smoothing: grayscale
+}
+
+// 
+
+
+.icon-moon {
+ margin-right: 5px;
+ font-size: 1em;
+ // display: inline-block;
+ height: 25px;
+ width: 25px;
+ fill: #71717a;
+ margin-right: 1em;
+ margin-top: 10px;
+ margin-bottom: 10px;
+}
+
+.icons {
+ flex-wrap: wrap;
+}
+
+
+// .icon-moon-agda {
+//  background: url(/css/assets/svg/Agda.svg);
+
+//  fill: #0e0e10;
+// }
+
+// } class=" "></i></li>
+
+//                  class="icon-moon-bf "></i></li>
+//               CFML" >
+//            class="icon-moon-cfml "></i></li>
+//               COBOL"
+//             class="icon-moon-cobol "></i></li>
+//               CommonLisp"
+//             class="icon-moon-commonlisp "></i></li>
+//               Elm" >
+//            class="icon-moon-elm "></i></li>
+//               Erlang"
+//             class="icon-moon-erlang "></i></li>
+//               Haxe" >
+//            class="icon-moon-haxe "></i></li>
+//               Idris"
+//             class="icon-moon-idris "></i></li>
+//               Factor"
+//             class="icon-moon-factor "></i></li>
+//               Forth"
+//             class="icon-moon-forth "></i></li>
+//               Fortran"
+//             class="icon-moon-fortran "></i></li>
+//               Julia"
+//             class="icon-moon-julia "></i></li>
+//               Nim" >
+//            class="icon-moon-nim "></i></li>
+//               Objective-C"
+//             class="icon-moon-objc "></i></li>
+//               OCaml"
+//             class="icon-moon-ocaml "></i></li>
+//               Pascal"
+//             class="icon-moon-pascal "></i></li>
+//               Perl" >
+//            class="icon-moon-perl "></i></li>
+//               PowerShell"
+//             class="icon-moon-powershell "></i></li>
+//               Prolog"
+//             class="icon-moon-prolog "></i></li>
+//               PureScript"
+//             class="icon-moon-purescript "></i></li>
+
+//                  class="icon-moon-r "></i></li>
+//               Raku" >
+//            class="icon-moon-raku "></i></li>
+//               Reason"
+//             class="icon-moon-reason "></i></li>
+//               Solidity"
+//             class="icon-moon-solidity "></i></li>
+
+//                  class="icon-moon-vb "></i></li>
